@@ -17,7 +17,7 @@ public class KafkaController {
     public String producer(@RequestParam ("message") String message){
         System.out.println(message);
         kafkaProducer.send(message);
-         System.out.println(" 2nd change in onkar_dev from github");
+         System.out.println(" change in onkar_dev from github");
 
         return "message send to kafkatopic successfull";
     }
